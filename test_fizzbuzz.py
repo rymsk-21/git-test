@@ -6,3 +6,12 @@ def test_one():
 
 def test_three():
     assert FizzBuzz.fizznbuzz(3) == 'fizz'
+
+def test_five():
+    assert FizzBuzz.fizznbuzz(5) == 'Buzz'
+
+def test_threefive():
+    assert FizzBuzz.fizznbuzz(15) == 'FizzBuzz'
+
+def test_six():
+    assert FizzBuzz.fizznbuzz(6) ==  'fizz'
