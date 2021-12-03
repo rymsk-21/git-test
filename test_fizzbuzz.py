@@ -15,3 +15,15 @@ def test_threefive():
 
 def test_six():
     assert FizzBuzz.fizznbuzz(6) ==  'fizz'
+
+def test_fizz_buzz():
+    assert FizzBuzz.fizznbuzz(2) == 2
+    assert FizzBuzz.fizznbuzz(16) == 16
+    assert FizzBuzz.fizznbuzz(94) == 94
+    assert FizzBuzz.fizznbuzz(90) == 'FizzBuzz'
+    assert FizzBuzz.fizznbuzz(75) == 'FizzBuzz'
+    assert FizzBuzz.fizznbuzz(80) == 'Buzz'
+    assert FizzBuzz.fizznbuzz(95) == 'Buzz'
+    assert FizzBuzz.fizznbuzz(60) == 'FizzBuzz'
+    assert FizzBuzz.fizznbuzz(99) == 'fizz'
+    assert FizzBuzz.fizznbuzz(33) == 'fizz'
