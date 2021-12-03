@@ -3,4 +3,7 @@ class FizzBuzz:
         pass
 
     def fizznbuzz(num):
-        return 1
+        if num == 1:
+            return 1
+        elif num == 3:
+            return 'fizz'
