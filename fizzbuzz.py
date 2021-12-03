@@ -3,12 +3,11 @@ class FizzBuzz:
         pass
 
     def fizznbuzz(num):
-        if num == 1:
-            return 1
-        elif num == 15:
+        if num % 15 == 0:
             return 'FizzBuzz'
         elif num % 3 == 0:
             return 'fizz'
-        elif num == 5:
+        elif num % 5 == 0:
             return 'Buzz'
-
+        else:
+            return num
